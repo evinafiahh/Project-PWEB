@@ -1,0 +1,200 @@
+@font-face {
+    font-family: alatsi;
+    src: url(Alatsi-Regular.ttf);
+}
+body {
+    font-family: alatsi;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.head {
+    background-image: url(ijen.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(75%) opacity(95%);
+    z-index: 1;
+}
+.profil {
+    background-image: url(brightnarunaa.png);
+    position: absolute;    
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    left: 140px;
+    top: 125px;
+    z-index: 2;
+}
+.info {
+    position: absolute;
+    left: 376px;
+    top: 135px;
+    color: #FFFFFF;
+    margin: 0px;
+    line-height: normal;
+    z-index: 2;
+}
+#bright {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 0px;
+}
+#loc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0;
+    line-height: 50px;
+}
+.edit {
+    position: absolute;
+    left: 1072px;
+    top: 200px;
+    background-color: #3291E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    z-index: 2;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff; 
+    margin: 10px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px #B9B3B3;
+    z-index: 3;
+}
+#navbarr{
+    margin-left: 33%;
+    padding-top: 1%;
+}
+.navbar1{
+    margin-left: 50px;
+    font-size: 18px;
+    color: #595959;
+}
+#navbarr a:hover{
+    color: black;
+}
+#javaguide{
+    width: 20%;
+}
+#java{
+    margin-left: 15px;
+    margin-top: -5px;
+    font-size: 35px;
+}
+#guide{
+    margin-left: 35px;
+    margin-top: -52px;
+    font-size: 25px;
+}
+.artikel {
+    position: relative;
+    Top: 440px;
+}
+#headart {
+    position: absolute;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    color: #595959;
+    margin-left: 150px;
+}
+#tambah {
+    position: absolute;
+    font: right;
+    background-color: #3291E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    left: 1059px;
+}
+#boxart {
+    position: relative;
+    display: flex;
+    top: 100px;
+    margin-left: 90px;
+}
+#destinasi {
+    width: 347px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    margin-left: 50px;
+    padding: 10px;
+}
+#img {
+    width: 332px;
+    height: 196px;
+}
+#judul {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #4D4D4D;
+    margin-left: 10px;
+}
+#isi {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4D4D4D;
+    margin-left: 10px;
+    text-align: justify;
+}
+#editart {
+    position: relative;
+    background-color: #3291E8;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+    left: 112px;
+}
+.galeri {
+    position: relative;
+    top: 670px;
+}
+#headgal {
+    position: relative;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    color: #595959;
+    margin-left: 150px;
+}
+#galeri{
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+}
+#baris1 {
+    margin-left: 120px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#baris2 {
+    display: flex;
+    margin-left: 120px;
+}
