@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Alatsi;
+    src : url(Alatsi-Regular.ttf)
+}
+body {
+    font-family: Alatsi;
+    max-width: 1150px;
+}
+.header {
+    position: relative;
+    display: flex;
+    margin-top: 4%;
+    left: 9%;
+    filter: drop-shadow(3px 3px 3px #6b6b6b);
+}
+.place {
+    position: relative;
+    left: 9%;
+}
+.place a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #595959;
+    line-height: 100px;
+}
+.guide {
+    position: relative;
+    left: 9%;
+    display: flex;
+}
+#boxguide {
+    display: inline-block;
+    width: 255px;
+    height: 369px;
+    background: #F3F3F3;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+#img {
+    position: relative;
+    left: 25%;
+    align-items: center;
+}
+#nama {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #595959;
+    text-align: center;
+}
+#boxguide a {
+    text-decoration:none;
+}
+#desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+    color: #BBBBBB;
+}
+#star {
+    position: relative;
+    left: 18%;
+}
