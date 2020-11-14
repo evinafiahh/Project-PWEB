@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Alatsi;
+    src : url(Alatsi-Regular.ttf)
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Alatsi;
+}
+#tambahartikel{
+    height: 680px;
+    display: flex;
+}
+#tambahkan{
+    width: 55%;
+    height: 1000px;
+    padding: 3%;
+    padding-top: 0;
+}
+#tulisan{
+    font-size: 25px;
+}
+#box{
+    width: 100%;
+    height: 340px;
+    border: 1px #c4bebe solid;
+    float: 40px;
+}
+#inputfoto{
+    margin-left: 74%;
+    margin-top: 2%;
+}
+#submit{
+    width: 160px;
+    height: 30px;
+    background-color: #3291E8;
+    font-size:17px ;color:#ffffff;
+    border: none;
+    margin-left: 75%;
+    margin-top: 3%;
+}
