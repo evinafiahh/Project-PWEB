@@ -8,12 +8,11 @@ html, body{
     font-family: Alatsi;
 }
 #tambahartikel{
-    height: 680px;
     display: flex;
 }
 #tambahkan{
     width: 55%;
-    height: 1000px;
+    height: 620px;
     padding: 3%;
     padding-top: 0;
 }

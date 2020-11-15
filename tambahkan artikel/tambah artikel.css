@@ -6,7 +6,6 @@ html, body{
     padding: 0;
     margin: 0;
     font-family: Alatsi;
-    height: 680px;
 }
 #tambahartikel{
     display: flex;
@@ -14,7 +13,7 @@ html, body{
 }
 #tambahkan{
     width: 55%;
-    height: 1000px;
+    height: 630px;
     padding: 3%;
     padding-top: 0;
 }
