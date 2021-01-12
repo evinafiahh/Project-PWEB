@@ -26,26 +26,27 @@
                 <p id="next">Jumlah Hari</p>
                 <br>
             </div>
-            <div id="inputan">
-                <input id="nextinputan" type="date">
+            <form name="formReservasi" id="inputan">
+                <input id="tanggal" type="date">
                 <br><br>
-                <input id="nextinputan" type="text" placeholder="Nama Pemesan">
+                <input id="nama" type="text" placeholder="Nama Pemesan">
                 <br><br>
-                <input id="nextinputan" type="text" placeholder="Nomor Telepon">
+                <input id="notelp" type="text" placeholder="Nomor Telepon">
                  <br><br>
-                <input id="nextinputan" type="text" list="meeting" placeholder="Meeting Point">
+                <input id="meetingp" type="text" list="meeting" placeholder="Meeting Point">
                 <datalist id="meeting">
                     <option value="Stasiun Probolinggo"></option>
                     <option value="Alun-alun Probolinggo"></option>
                 </datalist>
                 <br><br>
-                <input id="nextinputan" type="number" placeholder="Jumlah Rombongan">
+                <input id="rombongan" type="number" placeholder="Jumlah Rombongan">
                 <br><br>
-                <input id="nextinputan" type="number" placeholder="Jumlah Hari">
+                <input id="hari" type="number" placeholder="Jumlah Hari">
                 <br><br>
-                <input id="submitan" type="submit" value="Lakukan Pemesanan">
-            </div>            
+                <input id="button" type="button" value="Lakukan Pemesanan" onclick="terimainput()">
+            </form>            
         </div>  
     </div>
+    <script src="reservasi.js"></script>
 </body>
 </html>

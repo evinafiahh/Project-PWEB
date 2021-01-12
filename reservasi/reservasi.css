@@ -47,14 +47,49 @@ body{
     margin-top: 140px;
     margin-left: -70px;
 }
-#nextinputan{
+#tanggal{
     margin-top: 6px;
     width: 340px;
     height: 30px;
     background-color: #EAEAEA;
     border: none;
 }
-#submitan{
+#nama{
+    margin-top: 6px;
+    width: 340px;
+    height: 30px;
+    background-color: #EAEAEA;
+    border: none;
+}
+#notelp{
+    margin-top: 6px;
+    width: 340px;
+    height: 30px;
+    background-color: #EAEAEA;
+    border: none;
+}
+#meetingp{
+    margin-top: 6px;
+    width: 340px;
+    height: 30px;
+    background-color: #EAEAEA;
+    border: none;
+}
+#rombongan{
+    margin-top: 6px;
+    width: 340px;
+    height: 30px;
+    background-color: #EAEAEA;
+    border: none;
+}
+#hari{
+    margin-top: 6px;
+    width: 340px;
+    height: 30px;
+    background-color: #EAEAEA;
+    border: none;
+}
+#button{
     margin-top: 20px;
     margin-left: 20%;
     width: 190px;
@@ -62,4 +97,21 @@ body{
     background-color: #3291E8;
     font-size:17px ;color:#ffffff;
     border: none;
+}
+#tabeldata{
+    background-color: #FFFACD;
+    position: absolute;
+    top: 680px;
+    width: 1360px;
+    height: 680px;
+    background-size: cover;
+}
+#judul{
+    padding-top: 10vh;
+    text-align: center;
+}
+#tabel{
+    margin-top: 3%;
+    margin-left: 21%;
+    text-align: center;
 }
